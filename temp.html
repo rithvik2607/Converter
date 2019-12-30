@@ -1,0 +1,42 @@
+<!doctype html>
+
+    <html>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <head>
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900&display=swap" rel="stylesheet">
+
+        <title>
+            Temperature Converter
+        </title>
+
+    </head>
+
+    <header>
+
+        <h2><center>Temperature Converter</center></h2>
+
+    </header>
+
+    <body><div class="buttons">
+    <div class="item1"><br><br><button type="button" class="button" onClick="window.location.href='index.html';">Home</button><br><br></div>
+    <div class="item2"><button type="button" class="button" onClick="window.location.href='base.html';">Base Converter</button><br><br></div>
+    </div>
+        <center><strong>Please enter the temperature and the scale</strong></center><br>
+        <div class="container">
+        <form id="temp"><center>
+        <strong>Value:</strong>
+           <input type="text" id="heat"><br><br>
+        <strong>From scale:</strong>
+            <input type="text" id="fromscale"><br><br>
+        <strong>To scale:</strong>
+            <input type="text" id="toscale"><br><br>
+            <input type="submit" id="submit" value="Calculate">
+        </center></form>
+    </div>
+        <center><h2 id="result"></h2></center>
+        <script type="text/javascript" src="temp.js"></script>
+    </body>
+</html>
